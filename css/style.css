@@ -34,9 +34,20 @@ nav ul {
 
 }
 
-h1 {
+.titel {
+    font-size: 1.6em;
+    font-weight: 1000;
+}
+
+h1,
+nav a {
     padding: 0;
     margin: 0;
+}
+
+nav a {
+    color: #585858;
+    ;
 }
 
 .introductie {
@@ -83,6 +94,7 @@ h1 {
     position: absolute;
     left: -12em;
     top: -3em;
+    z-index: -1;
 }
 
 .portfolio {
@@ -174,7 +186,10 @@ img {
 .diensten h2,
 .overmij h2,
 .fotografie h2,
-.contact h2 {
+.contact h2,
+.ontwerpproces h2,
+.toolbox h2,
+.mijnstijl h2 {
     font-size: 2em;
     margin: 0;
     padding: 0;
@@ -185,7 +200,10 @@ img {
 .diensten h3,
 .overmij h3,
 .fotografie h3,
-.contact h3 {
+.contact h3,
+.ontwerpproces h3,
+.toolbox h3,
+.mijnstijl h3 {
     font-size: 1.2em;
     font-weight: 100;
     opacity: 0.5;
@@ -380,4 +398,140 @@ button:hover {
     position: absolute;
     bottom: 8px;
     right: 16px;
+}
+
+.diensten .sterretjes3container {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 32em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .sterretjeslinks {
+    width: 20em;
+}
+
+.footer .sterretjesrechts {
+    transform: rotateY(180deg);
+    width: 20em;
+}
+
+.fotovanmijfooter {
+    width: 12em;
+}
+
+.ontwerpproces {
+    color: white;
+    background-color: #254157;
+    padding-bottom: 3em;
+}
+
+.ontwerpproces h2,
+.ontwerpproces h3,
+.ontwerpproces li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ontwerpproces ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.bulletcontainer {
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+}
+
+.ontwerpproces li {
+    width: 15em;
+}
+
+.ontwerpproces h2 {
+    padding-top: 2em;
+}
+
+.ontwerpproces li h4:first-of-type {
+    font-size: 2em;
+    margin: 0;
+    opacity: 0.5;
+}
+
+.ontwerpproces h4 {
+    margin-bottom: 0;
+}
+
+.toolbox {
+    background-color: #F4F4F4;
+    padding-bottom: 2em;
+
+}
+
+.toolbox h2,
+.toolbox h3,
+.toolbox p {
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+}
+
+.row {
+    display: flex;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    position: absolute;
+}
+
+.column1,
+.column2 {
+    flex: 50%;
+    margin: 0;
+}
+
+.column1 p,
+.column2 p {
+    margin: 0;
+}
+
+.column1 {
+    text-align: left;
+    padding-right: 20em
+}
+
+.column2 {
+    text-align: right;
+    padding-left: 20em
+}
+
+.column1 h4,
+.column2 h4 {
+    margin-bottom: 0
+}
+
+.toolboxcontainer {
+    display: block;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mijnstijl h2,
+.mijnstijl h3 {
+    text-align: center;
+}
+
+.mijnstijl img {
+    padding-bottom: 1em;
+}
+
+.mijnstijl {
+    padding-bottom: 7em;
 }
