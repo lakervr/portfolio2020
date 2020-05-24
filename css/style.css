@@ -362,3 +362,22 @@ button:hover {
     background-color: #254157;
     height: 15em;
 }
+
+.fotografie .text {
+    font-size: 2em;
+    font-weight: 600
+}
+
+.break img {
+    width: 18em;
+}
+
+.diensten {
+    position: relative;
+}
+
+.diensten .sterretjes2container {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
