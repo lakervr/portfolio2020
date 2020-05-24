@@ -1,0 +1,364 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+    color: #585858;
+    font-family: 'CIRCE';
+}
+
+@font-face {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circe'), url('CRC55.woff') format('woff');
+}
+
+nav .introductie,
+nav {
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0;
+    padding-left: 2em;
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.introductie {
+    margin-left: 50%;
+    margin-right: 22.5%;
+}
+
+.introductie h2 {
+    font-size: 3em;
+    margin-top: 4em;
+    margin-bottom: 0em;
+}
+
+.introductie h3 {
+    color: lightgrey;
+    font-weight: 100;
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+.introductie h4 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.introductie li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    padding: 1em;
+    background-color: #CFD9E0;
+}
+
+.introductie ul {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.introductie img {
+    margin: 0;
+    padding: 0;
+    width: 70em;
+    position: absolute;
+    left: -12em;
+    top: -3em;
+}
+
+.portfolio {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    margin-top: 9em;
+    height: 35em;
+    padding-bottom: 6em;
+}
+
+.portfolio h2,
+.portfolio h3 {
+    padding: 0;
+    margin: 0;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    text-align: center;
+}
+
+.casecontainer {
+    width: 21em;
+}
+
+.listcontainer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+}
+
+.portfolio h2 {
+    padding-top: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.casecontainer {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #254157;
+}
+
+.casecontainer:hover .overlay {
+    opacity: 0.8;
+}
+
+.casecontainer .text {
+    opacity: 0;
+    transition: .5s ease;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.casecontainer:hover .text {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.portfolio h2,
+.diensten h2,
+.overmij h2,
+.fotografie h2,
+.contact h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    padding-top: 2em;
+}
+
+.portfolio h3,
+.diensten h3,
+.overmij h3,
+.fotografie h3,
+.contact h3 {
+    font-size: 1.2em;
+    font-weight: 100;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2em;
+}
+
+.diensten {
+    background-color: #254157
+}
+
+.diensten h2,
+.diensten h3 {
+    color: white;
+    text-align: center;
+}
+
+.diensten h2 {
+    margin-top: 0;
+    padding-top: 2em;
+}
+
+.diensten .casecontainer {
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.diensten .casecontainer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-top: 2em;
+}
+
+.diensten p {
+    font-size: 0.8em;
+    line-height: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+}
+
+.diensten h4 {
+    font-size: 1.1em;
+    color: #254157
+}
+
+.diensten .listcontainer {
+    padding-bottom: 6em;
+}
+
+.overmij {
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+
+.overmij p {
+    line-height: 1.9em;
+    margin-right: 50%;
+}
+
+.overmij img {
+    width: 25em;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+
+    background-color: #92A8B9;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    border: none;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.3s;
+    margin-top: 2EM;
+}
+
+#arrow {
+    margin-left: 1em;
+    color: white;
+}
+
+button:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.break {
+    background-color: #254157;
+    height: 10em;
+}
+
+.fotografie {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.oproep h3 {
+    padding: 0;
+    margin: 0
+}
+
+.oproep {
+    background-color: #92A8B9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+}
+
+.oproep h3:first-of-type {
+    font-weight: 100;
+    padding-bottom: 0.5em;
+}
+
+.contact {
+    text-align: center;
+    background-color: #F4F4F4;
+}
+
+.contact h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.contact input {
+    color: lightgrey;
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    border: none;
+    font-size: 1em;
+    text-align: center;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact .contactformulier {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 2em;
+    padding-bottom: 4em;
+}
+
+.contact h2 {
+    margin-top: 0;
+}
+
+.footer {
+    background-color: #254157;
+    height: 15em;
+}
