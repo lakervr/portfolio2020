@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src='js/jquery.js'></script>
     <script src="https://kit.fontawesome.com/9b13c1a479.js">
+
+
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -15,7 +17,6 @@
 
     <nav class='navigatie'>
         <ul>
-            <li><a href='index.html'>Home</a></li>
             <li><a href='index.html'>Portfolio</a></li>
             <li><a href='index.html'>Diensten</a></li>
             <li><a href='index.html'>Over mij</a></li>
@@ -32,11 +33,11 @@
         <h3>Een enthousiaste UX/UI design student en fotograaf die het liefst elk creatieve project aangrijpt.</h3>
         <h4>Wat kan ik voor jou betekenen?</h4>
         <ul>
-            <li>UX/UI design</li>
+            <li>UX / UI Design</li>
             <li>Grafisch Design</li>
             <li>Fotografie en Film</li>
         </ul>
-        <img src="images/fotovanmij-sterretjes.png">
+        <img src="images/fotovanmij-sterretjes6.png">
     </div>
 
     <div class='portfolio'>
@@ -44,22 +45,29 @@
         <h3>Projecten waar ik trots op ben</h3>
         <div class='listcontainer'>
             <div class='casecontainer'>
-                <a href='casenibud.html'><img src='images/case-nibud.jpg'></a>
+                <img src='images/case-nibud.jpg'>
                 <div class="overlay">
                 </div>
-                <div class="text"><img src="images/logohvz.png"> </div>
+                <a href='casenibud.html'>
+                    <div class="text"><img class='nibudlogo' src="images/logonibud.png"> </div>
+                </a>
             </div>
+
             <div class='casecontainer'>
                 <a href='casehvz.html'><img src='images/case-hvz.JPG'></a>
                 <div class="overlay">
                 </div>
-                <div class="text"><img src="images/logohvz.png"> </div>
+                <a href='casehvz.html'>
+                    <div class="text"><img src="images/logohvz.png"> </div>
+                </a>
             </div>
             <div class='casecontainer'>
                 <a href='casenemo.html'><img src='images/case-nemo.jpg'></a>
                 <div class="overlay">
                 </div>
-                <div class="text"><img src="images/logohvz.png"> </div>
+                <a href='casenemo.html'>
+                    <div class="text"><img class='nemologo' src="images/logonemo.png"> </div>
+                </a>
             </div>
         </div>
     </div>
@@ -71,12 +79,12 @@
             <div class='casecontainer'>
                 <img src="images/icoondesign.png">
                 <h4>UX/UI Design</h4>
-                <p>Het ontwerpen van digitale tools, websitestructuren, applicaties</p>
+                <p>Het stapsgewijs ontwerpen van digitale tools, websites en applicaties die de wereld een stukje mooier maken.</p>
             </div>
             <div class='casecontainer'>
                 <img src="images/icoongrafisch.png">
                 <h4>Grafisch Design</h4>
-                <p>Het ontwerpen van illustraties, infographics, visuele identiteiten, logo's, opdruk, posters.</p>
+                <p>Het ontwerpen van illustraties, infographics, visuele identiteiten, logo's, opdruk en posters.</p>
             </div>
             <div class='casecontainer'>
                 <img src="images/icooncamera.png">
@@ -93,7 +101,7 @@
     </div>
 
     <div class='overmij'>
-        <img src="images/fotovanmij-klein.png">
+        <img src="images/fotovanmij2.png">
         <h2>Over mij</h2>
         <h3>Wie ben ik als ontwerper?</h3>
         <p>Als ontwerper bedenk ik stapsgewijs creatieve oplossingen voor een probleem. Hierbij ligt de focus op de functionaliteit, maar ik vind het ook belangrijk dat het ontwerp een unieke en passende uitstraling heeft. Ik vind het leuk om te experimenteren met verschillende stijlen en hou van duidelijkheid en overzicht.</p>
@@ -118,19 +126,19 @@
                 <a href='nemo.html'><img src='images/mensen.jpg'></a>
                 <div class="overlay">
                 </div>
-                <div class="text">Mensen </div>
+                <div class="text"><a href='fotografiemensen.html'>Mensen</a></div>
             </div>
             <div class='casecontainer'>
                 <a href='koppop.html'><img src='images/paarden.jpg'></a>
                 <div class="overlay">
                 </div>
-                <div class="text">Paarden </div>
+                <div class="text"><a href='fotografiepaarden.html'>Paarden</a></div>
             </div>
             <div class='casecontainer'>
                 <a href='melkweg.html'><img src='images/combinaties.jpg'></a>
                 <div class="overlay">
                 </div>
-                <div class="text">Combinaties </div>
+                <div class="text"><a href='index.html'>Combinaties</a></div>
             </div>
         </div>
     </div>
@@ -144,15 +152,13 @@
         <h2>Contact</h2>
         <h3>Ik hou van een uitdaging. Vertel mij waar je naar op </h3>
         <h3>zoek bent en ik denk met je mee! </h3>
-        <div class='contactformulier'>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <div class=button>
-                <button><a href='mijnwerk.html'>VERZENDEN</a>
-        </button>
-            </div>
-        </div>
+        <form action="/action_page.php">
+            <input type="text" id="email" name="email" placeholder="Email">
+            <input type="text" id="onderwerp" name="onderwerp" placeholder="Onderwerp">
+            <textarea id="subject" name="subject" placeholder="Bericht" style="height:200px"></textarea>
+            <input type="submit" value="VERZENDEN">
+        </form>
+
     </div>
 
     <div class='footer'>
