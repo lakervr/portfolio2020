@@ -126,9 +126,9 @@ nav a {
     }
     .introductie {
         margin: 0;
-        margin-right: 10%;
+        margin-right: 2em;
         margin-bottom: 10%;
-        margin-left: 10%
+        margin-left: 2em
     }
     .titel {
         margin-left: 10%;
@@ -336,7 +336,7 @@ nav a {
     }
 }
 
-@media screen and (min-width:40em) {
+@media screen and (min-width:1000px) {
     .topnav {
         display: none;
     }
@@ -589,8 +589,12 @@ a {
     cursor: pointer;
 }
 
-#arrow {
+#overmij button #arrow {
     margin-left: 16px;
+    color: white;
+}
+
+#arrow {
     color: white;
 }
 
@@ -789,7 +793,7 @@ form {
 
 .toolboxcontainer {
     display: block;
-    width: 480px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -923,7 +927,24 @@ form {
     left: 50%;
 }
 
-@media screen and (max-width:40em) {
+#contact input {
+    font-size: 1.4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+    color: #92A8B9;
+    border: none;
+    background-color: #F4F4F4;
+    font-family: 'CIRCE';
+    outline: none;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
     .footer .sterretjeslinks {
         width: 100px;
         height: 70px;
@@ -946,24 +967,117 @@ form {
         margin: auto;
         padding-top: 2em;
     }
-}
+    .introductie h2 {
+        font-size: 2.2em;
+        padding-top: 1em;
+    }
+    .introductie ul li {
+        background-color: #92A8B9;
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        float: left;
+        padding: 8px;
+        opacity: 0.70;
+        margin-top: 0;
+        font-size: 0.8em;
+    }
+    #portfolio h2,
+    #diensten h2,
+    #overmij h2,
+    #fotografie h2,
+    #contact h2,
+    .ontwerpproces h2,
+    .toolbox1 h2,
+    .mijnstijl h2,
+    .fotografiecollage h2,
+    .casedetail h2,
+    .toolbox2 h2 {
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+    }
 
-#contact input {
-    font-size: 1.4em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin: 0;
-    color: #92A8B9;
-    border: none;
-    background-color: #F4F4F4;
-    font-family: 'CIRCE';
-    outline: none;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: 0.3s;
-    cursor: pointer;
-
+    #portfolio h3,
+    #diensten h3,
+    #overmij h3,
+    #fotografie h3,
+    #contact h3,
+    .ontwerpproces h3,
+    .toolbox1 h3,
+    .mijnstijl h3,
+    .fotografiecollage h3,
+    .casedetail h3,
+    .casedetailcontent h3,
+    .toolbox2 h3 {
+        font-size: 1em;
+        margin-bottom: 1.2em
+    }
+    .casecontainer {
+        width: 17em;
+    }
+    .introductie h4 {
+        text-align: center;
+    }
+    .introductie ul {
+        margin-left: 10%;
+    }
+    .introductie {
+        text-align: center;
+    }
+    .break img {
+        width: 10em;
+    }
+    .oproep {
+        font-size: 0.8em;
+    }
+    #contact h3 {
+        padding: 0;
+        margin: 0;
+    }
+    #contact input {
+        font-size: 1em;
+    }
+    #copyright {
+        padding: 1em;
+    }
+    .casedetailcontent {
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+    .casedetailcontent p {
+        font-size: 0.9em;
+        line-height: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .casedetailcontent li {
+        font-size: 0.9em;
+        line-height: 2em;
+    }
+    .casedetailcontent ol,
+    .casedetailcontent ul {
+        padding: 0;
+        padding-left: 1.5em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .casedetailcontent h3 {
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    .casedetail h2 {
+        margin: 0;
+        padding: 0;
+    }
+    .casedetail h2 {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 #contact input:hover {
@@ -974,4 +1088,35 @@ form {
 
 .casedetailcontent h3:first-of-type {
     line-height: 2em;
+}
+
+button {
+
+    background-color: #92A8B9;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 22.4px;
+    padding-bottom: 22.4px;
+    border: none;
+    font-size: 11.2px;
+    letter-spacing: 1px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.3s;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+button:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#ondertiteling {
+    margin: 0;
+    font-size: 10px;
+    padding-top: 5px;
 }
