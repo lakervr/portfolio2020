@@ -7,21 +7,36 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src='js/jquery.js'></script>
     <script src="https://kit.fontawesome.com/9b13c1a479.js">
-
-
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
+    <div id='static'>
+        <div class="topnav">
+            <a href="index.html" class="active">Raven Lakerveld</a>
+            <div id="myLinks">
+                <a href="#portfolio">Portfolio</a>
+                <a href="#diensten">Diensten</a>
+                <a href="#overmij">Over mij</a>
+                <a href="#fotografie">Fotografie</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+        </div>
+    </div>
+
+
     <nav class='navigatie'>
         <ul>
-            <li><a href='index.html'>Portfolio</a></li>
-            <li><a href='index.html'>Diensten</a></li>
-            <li><a href='index.html'>Over mij</a></li>
-            <li><a href='index.html'>Fotografie</a></li>
-            <li><a href='index.html'>Contact</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href='#diensten'>Diensten</a></li>
+            <li><a href='#overmij'>Over mij</a></li>
+            <li><a href='#fotografie'>Fotografie</a></li>
+            <li><a href='#contact'>Contact</a></li>
         </ul>
         <div class='titel'>
             <a href='index.html'>Raven Lakerveld</a>
@@ -34,13 +49,13 @@
         <h4>Wat kan ik voor jou betekenen?</h4>
         <ul>
             <li>UX / UI Design</li>
-            <li>Grafisch Design</li>
+            <li>Graphic Design</li>
             <li>Fotografie en Film</li>
         </ul>
-        <img src="images/fotovanmij-sterretjes6.png">
+        <img src="images/fotovanmij-sterretjes10.png">
     </div>
 
-    <div class='portfolio'>
+    <div id='portfolio'>
         <h2>Portfolio</h2>
         <h3>Projecten waar ik trots op ben</h3>
         <div class='listcontainer'>
@@ -52,7 +67,6 @@
                     <div class="text"><img class='nibudlogo' src="images/logonibud.png"> </div>
                 </a>
             </div>
-
             <div class='casecontainer'>
                 <a href='casehvz.html'><img src='images/case-hvz.JPG'></a>
                 <div class="overlay">
@@ -72,7 +86,7 @@
         </div>
     </div>
 
-    <div class='diensten'>
+    <div id='diensten'>
         <h2>Diensten</h2>
         <h3>Wat kan ik voor jou betekenen?</h3>
         <div class='listcontainer'>
@@ -83,7 +97,7 @@
             </div>
             <div class='casecontainer'>
                 <img src="images/icoongrafisch.png">
-                <h4>Grafisch Design</h4>
+                <h4>Graphic Design</h4>
                 <p>Het ontwerpen van illustraties, infographics, visuele identiteiten, logo's, opdruk en posters.</p>
             </div>
             <div class='casecontainer'>
@@ -100,8 +114,8 @@
         </div>
     </div>
 
-    <div class='overmij'>
-        <img src="images/fotovanmij2.png">
+    <div id='overmij'>
+        <img src="images/fotovanmij3.png">
         <h2>Over mij</h2>
         <h3>Wie ben ik als ontwerper?</h3>
         <p>Als ontwerper bedenk ik stapsgewijs creatieve oplossingen voor een probleem. Hierbij ligt de focus op de functionaliteit, maar ik vind het ook belangrijk dat het ontwerp een unieke en passende uitstraling heeft. Ik vind het leuk om te experimenteren met verschillende stijlen en hou van duidelijkheid en overzicht.</p>
@@ -118,7 +132,7 @@
         <img src="images/sterretjes1.png">
     </div>
 
-    <div class='fotografie'>
+    <div id='fotografie'>
         <h2>Fotografie</h2>
         <h3>Naast design heb ik een passie voor fotografie</h3>
         <div class='listcontainer'>
@@ -138,7 +152,7 @@
                 <a href='melkweg.html'><img src='images/combinaties.jpg'></a>
                 <div class="overlay">
                 </div>
-                <div class="text"><a href='index.html'>Combinaties</a></div>
+                <div class="text"><a href='fotografiecombinaties.html'>Combinaties</a></div>
             </div>
         </div>
     </div>
@@ -148,23 +162,24 @@
         <h3> Volg dan mijn Instagram: @ravenlakerveldfotografie</h3>
     </div>
 
-    <div class='contact'>
+    <div id='contact'>
         <h2>Contact</h2>
         <h3>Ik hou van een uitdaging. Vertel mij waar je naar op </h3>
         <h3>zoek bent en ik denk met je mee! </h3>
-        <form action="/action_page.php">
-            <input type="text" id="email" name="email" placeholder="Email">
-            <input type="text" id="onderwerp" name="onderwerp" placeholder="Onderwerp">
-            <textarea id="subject" name="subject" placeholder="Bericht" style="height:200px"></textarea>
-            <input type="submit" value="VERZENDEN">
+        <form action="mailto:ravenlakerveld@hotmail.nl" method="GET">
+            <input type="submit" value="E-mail: ravenlakerveld@hotmail.nl" />
         </form>
-
     </div>
 
     <div class='footer'>
         <img class='sterretjeslinks' src="images/sterretjes1.png">
         <img class='fotovanmijfooter' src="images/fotovanmij-klein.png">
         <img class='sterretjesrechts' src="images/sterretjes1.png">
+    </div>
+
+    <div class='oproep'>
+        <p>&copy; 2020 Raven Lakerveld
+            <p>
     </div>
 
     <script src="js/javascript.js"></script>
