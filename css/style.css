@@ -665,10 +665,6 @@ form {
     font-weight: 600
 }
 
-.break img {
-    width: em;
-}
-
 #diensten {
     position: relative;
 }
@@ -1063,9 +1059,11 @@ form {
     .casedetailcontent ol,
     .casedetailcontent ul {
         padding: 0;
-        padding-left: 1.5em;
+        margin: 0;
         margin-top: 2em;
         margin-bottom: 2em;
+        margin-left: 50%;
+        margin-right: 50%;
     }
     .casedetailcontent h3 {
         margin-bottom: 2em;
@@ -1079,45 +1077,67 @@ form {
         margin: 0;
         padding: 0;
     }
-}
-
-#contact input:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-}
+    #contact input:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
 
 
-.casedetailcontent h3:first-of-type {
-    line-height: 2em;
-}
+    .casedetailcontent h3:first-of-type {
+        line-height: 2em;
+    }
 
-button {
+    button {
 
+        background-color: #92A8B9;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 22.4px;
+        padding-bottom: 22.4px;
+        border: none;
+        font-size: 11.2px;
+        letter-spacing: 1px;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        transition: 0.3s;
+        margin-top: 32px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+
+    #ondertiteling {
+        margin: 0;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .wrapper {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /*
+
+.introductie li {
     background-color: #92A8B9;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 22.4px;
-    padding-bottom: 22.4px;
-    border: none;
-    font-size: 11.2px;
-    letter-spacing: 1px;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: 0.3s;
-    margin-top: 32px;
-    cursor: pointer;
-}
-
-button:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-
-#ondertiteling {
-    margin: 0;
-    font-size: 10px;
-    padding-top: 5px;
+    width: 90px;
+    height: 90px;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+    padding: 8px;
+    opacity: 0.70;
+    margin-top: 0;
 }
