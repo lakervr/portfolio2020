@@ -203,7 +203,8 @@ nav a {
     .topnav {
         background-color: grey;
         max-width: 100%;
-        width: inherit;
+        position: absolute;
+        width: auto;
     }
 
     .topnav {
