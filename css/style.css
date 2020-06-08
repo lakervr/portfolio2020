@@ -206,7 +206,8 @@ nav a {
     .topnav {
         background-color: grey;
         max-width: 100%;
-        position: absolute;
+        position: relative;
+        display: block;
         width: auto;
     }
 
