@@ -10,6 +10,7 @@ body {
     color: #585858;
     font-family: 'CIRCE';
     max-width: 100%;
+    box-sizing: border-box;
 }
 
 @font-face {
