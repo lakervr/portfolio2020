@@ -373,7 +373,11 @@ nav a {
         margin-right: 50%;
         ;
     }
-
+    .ontwerpproces p {
+        padding-right: 1.7em;
+        font-size: 0.8em;
+        line-height: 1.8em
+    }
 }
 
 #portfolio {
