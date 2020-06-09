@@ -370,7 +370,8 @@ nav a {
         width: 20%;
     }
     #overmij p {
-        margin-right: 440px;
+        margin-right: 50%;
+        ;
     }
 
 }
@@ -1100,7 +1101,7 @@ form {
         justify-content: center;
         margin: 0;
         padding: 0;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin-left: 3%;
         margin-right: 3%;
         text-align: center;
@@ -1111,8 +1112,8 @@ form {
         padding: 0;
         display: inline-block;
         height: auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     #overmij h3 {
         padding-right: 0px;
