@@ -16,7 +16,8 @@ body {
 }
 
 p {
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 14.4px;
 }
 
 .titel {
@@ -31,7 +32,7 @@ nav ul li {
 nav ul {
     padding: 0;
     margin: 0;
-    opacity: 0.5;
+    opacity: 0.7;
     text-align: left;
     float: right;
     padding-top: 8px;
@@ -71,7 +72,7 @@ nav a {
 .introductie h3 {
     font-weight: 200;
     line-height: 32px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .introductie h4 {
@@ -170,9 +171,6 @@ nav a {
     #overmij h3,
     #overmij p {
         width: 100%;
-    }
-    .break img {
-        width: 10em;
     }
     .oproep h3 {
         font-size: 1em;
@@ -284,9 +282,6 @@ nav a {
         padding-right: 1em;
         padding-top: 0.2em;
     }
-    .break img {
-        width: 20em;
-    }
 
     #contact textarea {
         background-color: white;
@@ -350,9 +345,6 @@ nav a {
         margin-right: 33%;
         margin-bottom: 80px;
     }
-    .break img {
-        width: 18em;
-    }
     .ontwerpproces {
         padding-left: 20%;
         padding-right: 20%;
@@ -369,6 +361,14 @@ nav a {
     .overmijpagina2 {
         display: none;
     }
+    .break {
+        background-color: #254157;
+    }
+
+    .break img {
+        width: 20%;
+    }
+
 }
 
 #portfolio {
@@ -497,7 +497,7 @@ div {
 .toolbox2 h3 {
     font-size: 19.2px;
     font-weight: 200;
-    opacity: 0.5;
+    opacity: 0.7;
     margin: 0;
     padding: 0;
     margin-bottom: 32px;
@@ -608,11 +608,6 @@ a {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 0.3s;
-}
-
-.break {
-    background-color: #254157;
-    height: 10%;
 }
 
 #fotografie {
@@ -736,7 +731,7 @@ form {
 .ontwerpproces li h4:first-of-type {
     font-size: 32px;
     margin: 0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .ontwerpproces h4 {
@@ -845,13 +840,13 @@ form {
 }
 
 .casedetail h4 {
-    opacity: 0.5;
+    opacity: 0.7;
     font-weight: 200;
     padding-top: 64px;
 }
 
 .casedetail h3 {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .casedetailcontent p {
@@ -1016,9 +1011,6 @@ form {
     .introductie {
         text-align: center;
     }
-    .break img {
-        width: 10em;
-    }
     .oproep {
         font-size: 0.8em;
     }
@@ -1121,6 +1113,16 @@ form {
         top: 8px;
         left: 16px;
         width: 100%;
+    }
+    .break {
+        background-color: #254157;
+    }
+
+    .break img {
+        width: 30%;
+    }
+    .introductie li {
+        font-size: 14px;
     }
 
 }
