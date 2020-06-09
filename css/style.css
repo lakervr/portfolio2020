@@ -744,9 +744,18 @@ form {
 
 .toolbox1 {
     background-color: #F4F4F4;
-    padding-bottom: 32px;
+    padding-bottom: 8em;
 
 }
+
+.toolbox2 {
+    background-color: #F4F4F4;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2em
+}
+
 
 .toolbox1 h2,
 .toolbox1 h3,
@@ -783,7 +792,7 @@ form {
     text-align: right;
     margin: 0;
     padding: 0;
-    padding-left: 20em
+    padding-left: 20em;
 }
 
 .column1 h4,
@@ -793,9 +802,10 @@ form {
 
 .toolboxcontainer {
     display: block;
-    width: 300px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1em;
 }
 
 .mijnstijl h2,
