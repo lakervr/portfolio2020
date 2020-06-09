@@ -8,18 +8,15 @@ body {
     padding: 0;
     margin-top: 32px;
     color: #585858;
-    font-family: 'CIRCE';
+    font-family: circe, sans-serif;
     max-width: 100%;
     box-sizing: border-box;
     height: 100vh;
     width: 100vw;
 }
 
-@font-face {
-    font-family: 'Circe';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Circe'), url('CRC55.woff') format('woff');
+p {
+    font-weight: 200;
 }
 
 .titel {
@@ -72,7 +69,7 @@ nav a {
 }
 
 .introductie h3 {
-    font-weight: 100;
+    font-weight: 200;
     line-height: 32px;
     opacity: 0.5;
 }
@@ -499,7 +496,7 @@ div {
 .casedetailcontent h3,
 .toolbox2 h3 {
     font-size: 19.2px;
-    font-weight: 100;
+    font-weight: 200;
     opacity: 0.5;
     margin: 0;
     padding: 0;
@@ -639,7 +636,7 @@ a {
 }
 
 .oproep h3:first-of-type {
-    font-weight: 100;
+    font-weight: 200;
     padding-bottom: 8px;
 }
 
@@ -685,6 +682,7 @@ form {
     position: absolute;
     top: 8px;
     left: 16px;
+    width: 25%;
 }
 
 .footer {
@@ -848,7 +846,7 @@ form {
 
 .casedetail h4 {
     opacity: 0.5;
-    font-weight: 100;
+    font-weight: 200;
     padding-top: 64px;
 }
 
@@ -1117,6 +1115,12 @@ form {
     }
     #overmij h3 {
         padding-right: 0px;
+    }
+    #diensten .sterretjes3container {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        width: 100%;
     }
 
 }
