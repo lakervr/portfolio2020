@@ -1115,6 +1115,10 @@ form {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    #overmij h3 {
+        padding-right: 0px;
+    }
+
 }
 
 #ondertiteling {
