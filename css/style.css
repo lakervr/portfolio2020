@@ -584,7 +584,8 @@ a {
     color: white;
 }
 
-#overmij button {
+#overmij button,
+.casedetailcontent button {
 
     background-color: #92A8B9;
     padding-left: 10%;
@@ -602,7 +603,8 @@ a {
     cursor: pointer;
 }
 
-#overmij button #arrow {
+#overmij button #arrow,
+.casedetailcontent button #arrow {
     margin-left: 16px;
     color: white;
 }
@@ -611,7 +613,8 @@ a {
     color: white;
 }
 
-#overmij button:hover {
+#overmij button:hover,
+.casedetailcontent button:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -870,7 +873,7 @@ form {
 .casedetailcontent p {
     margin-top: 48px;
     margin-bottom: 48px;
-    line-height: 2em;
+    line-height: 32px
 }
 
 .casedetailcontent ol,
@@ -1169,6 +1172,12 @@ form {
     margin: 0;
     font-size: 10px;
     padding-top: 5px;
+}
+
+@media screen and (min-width:1000px) {
+    .casedetailcontent h3 {
+        line-height: 2em;
+    }
 }
 
 /*
